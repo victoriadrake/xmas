@@ -1,0 +1,88 @@
+/* http://material.colorion.co/palette/3320 */
+body {
+  font-family: 'Righteous', cursive;
+  color:white;
+  text-align: center;
+  background: #dd4848;
+  background-image: url('https://i.imgur.com/BiSmXaq.png'), url('https://i.imgur.com/XHuy0NJ.png'), url('https://i.imgur.com/okpRxJU.png');
+  -webkit-animation: snow 20s linear infinite;
+  -moz-animation: snow 20s linear infinite;
+  -ms-animation: snow 20s linear infinite;
+  animation: snow 20s linear infinite;
+}
+
+@-webkit-keyframes snow {
+  0% { background-position: 0px, 0px, 0px, 0xp, 0xp, 0xp}
+  50% { background-color: #dc5959 }
+  100% { background-position: 500px 1000px, 400px 400px, 300px 300px;
+  background-color: #dd4848;
+  }
+}
+@-moz-keyframes snow {
+  0% { background-position: 0px, 0px, 0px, 0xp, 0xp, 0xp}
+  50% { background-color: #dc5959 }
+  100% { background-position: 500px 1000px, 400px 400px, 300px 300px;
+  background-color: #dd4848;
+  }
+}
+@-ms-keyframes snow {
+  0% { background-position: 0px, 0px, 0px, 0xp, 0xp, 0xp}
+  50% { background-color: #dc5959 }
+  100% { background-position: 500px 1000px, 400px 400px, 300px 300px;
+  background-color: #dd4848;
+  }
+}
+@keyframes snow {
+  0% { background-position: 0px, 0px, 0px, 0xp, 0xp, 0xp}
+  50% { background-color: #dc5959 }
+  100% { background-position: 500px 1000px, 400px 400px, 300px 300px;
+  background-color: #dd4848;
+  }
+}
+
+h1 {
+  text-align:center;
+  font-size: 60px;
+  color:white;
+  text-shadow: 4px 2px 3px rgba(0,0,0, 0.6);
+  margin-bottom: 10px;
+  margin-top: 100px;
+}
+
+#clockdiv {
+  width: 1000px;
+  width: 100%;
+  top:50%;
+  left:50%;
+  font-size: 50px;
+}
+.inner {
+  display:inline-block;
+  border: 5px solid white;
+  padding: 20px;
+  width: 80px;
+  height: 80px;
+  box-shadow: 5px 5px 5px rgba(0,0,0, 0.5);
+  background: repeating-linear-gradient(55deg, 
+    rgba(221, 72, 72, 0.1), 
+    rgba(221, 72, 72, 0.1) 5px,
+    rgba(255, 255, 255, 0.2) 5px, 
+    rgba(255, 255, 255, 0.2) 10px);
+}
+.inner .smalltext {
+  font-size: 20px;
+  text-shadow: 4px 2px 3px rgba(0,0,0, 0.6);
+}
+
+.days {
+  text-shadow: 4px 2px 3px rgba(0,0,0, 0.6);
+}
+.hours {
+  text-shadow: 4px 2px 3px rgba(0,0,0, 0.6);
+}
+.minutes {
+  text-shadow: 4px 2px 3px rgba(0,0,0, 0.6);
+}
+.seconds {
+  text-shadow: 4px 2px 3px rgba(0,0,0, 0.6);
+}
