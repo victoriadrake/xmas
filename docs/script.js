@@ -1,6 +1,6 @@
 function getTimeRemaining () {
   const today = new Date()
-  const xmas = new Date('Dec 25, 2020')
+  const xmas = new Date('Dec 25, 2021')
   const millis = Math.abs(xmas - today)
   var days, hours, minutes, seconds, totalHours, totalMinutes, totalSeconds
 
